@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web API Code Quiz</title>
+    <link rel="stylesheet" href="./Assets/css/reset.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <h2 class="time" id="time-left">Time: 00</h2>
+
+    <main class="main">
+        <section id="section-1" class="section">
+            <h1 class="title"> CODING GAME QUIZ</h1>
+
+            <p> Good Luck!</p>
+           
+            <button id="start-btn">Start Quiz</button>
+
+            <p><a href="./scores.html">scores</a></p>
+
+        </section>
+
+        <section id="section-2" class="section">
+            <h1 class="questions"></h1>
+            <div class="choices"></div>
+        </section>
+
+        <section id="section-3" class="section">
+            <input id="initials" type="text">
+            <button id="btn">Submit Scores</button>
+        </section>
+    </main>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+
+/*
+:root {
+
+    --ltgreen:rgb(89, 245, 120);  
+    --ocean: rgb(89, 245, 203);
+    --hotpink: rgb(245, 89, 123);
+    --purple: rgb(115, 27, 153);
+    --dkpurple: rgb(91, 44, 106);
+   
+  }
+
+*/
+
+
+body {
+    background-color: rgb(209, 105, 199);
+    color: rgb(26, 26, 145);
+    }
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* 
+#section-2 {
+   display: none;
+} */
+
+#section-3 {
+   display: none;
+}
+
+.hide{
+    display: none;
+}
+
+/* High Scores styles */
+/*
+.hsTitle {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+    color: var(--ltgreen);
+  }
+  
+  .high-scores-table {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--purple);
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+  
+  .high-scores-table th,
+  .high-scores-table td {
+    border: 2px solid var(--dkpurple);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .high-scores-table th {
+    font-weight: bold;
+    background-color: var(--purple);
+    color: var(--ltgreen);
+  }
+  
+  .high-scores-table tr:nth-child(even) {
+    background-color: var(--hotpink);
+  }
+  
+  .high-scores-table tr:hover {
+    background-color: var(--ocean);
+  }  */
